@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\EMPWEBAPI</_PublishTargetUrl>
+    <History>True|2024-06-07T07:24:34.8383309Z;True|2024-06-05T14:50:29.5722111+05:30;False|2024-06-05T14:49:20.8014626+05:30;True|2024-06-05T14:44:59.6036471+05:30;True|2024-06-05T14:35:41.6625429+05:30;True|2024-06-05T14:34:17.0464062+05:30;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="Connection">
+      <Value>Data Source=DESKTOP-45NM1NI%3bInitial Catalog=Emp%3bPersist Security Info=True%3bUser ID=vidhi%3bPassword=vidhi123%3bEncrypt=True%3bTrust Server Certificate=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
