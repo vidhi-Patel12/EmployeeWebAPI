@@ -99,5 +99,20 @@ namespace EmployeeWebAPI.Repository
         {
             return _dbContext.Employee.Any(e => e.EmployeeId == id);
         }
+
+        public void GetEmployeeDetailsById(int id, CancellationToken none)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void GetEmployeeDetailsById(EmployeeClass employeeClass)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void GetEmployeeDetailsById()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

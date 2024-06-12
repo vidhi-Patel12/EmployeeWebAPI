@@ -23,7 +23,7 @@ namespace EmployeeWebAPI.Controllers
         private readonly IEmployee _IEmployee;
         private readonly IWebHostEnvironment WebHostEnvironment;
         private readonly DatabaseContext _dbContext;
-
+        private IEmployee @object;
 
         public EmployeeController(IEmployee IEmployee, IWebHostEnvironment webHostEnvironment, DatabaseContext dbContext)
         {
@@ -31,6 +31,8 @@ namespace EmployeeWebAPI.Controllers
             WebHostEnvironment = webHostEnvironment;
             _dbContext = dbContext;
         }
+
+       
 
         // GET: api/Get>
         [Authorize]
@@ -54,19 +56,25 @@ namespace EmployeeWebAPI.Controllers
         }
 
 
-        [Authorize]
+        //[Authorize]
         [HttpPost]
-        public async Task<IActionResult> Post([FromForm] EmployeeViewModel vm)
+        public async Task<ActionResult> Post([FromForm] EmployeeViewModel vm)
         {
             if (vm == null)
             {
                 return BadRequest("Invalid submission.");
             }
 
+            // Check if the email already exists in the database
+            //bool emailExists = await _dbContext.Employee.AnyAsync(e => e.Email == vm.Email);
+            //if (emailExists)
+            //{
+            //    return BadRequest("An employee with this email already exists.");
+            //}
+
             string stringfilename = UploadFile(vm);
             var employee = new EmployeeClass
             {
-
                 EmployeeName = vm.EmployeeName,
                 BirthDate = vm.BirthDate,
                 Gender = vm.Gender,
@@ -80,6 +88,7 @@ namespace EmployeeWebAPI.Controllers
 
             return Ok(employee);
         }
+
 
         private string UploadFile(EmployeeViewModel vm)
         {
@@ -157,13 +166,13 @@ namespace EmployeeWebAPI.Controllers
 
       
         // DELETE api/employee/5
-        [Authorize]
-        [HttpDelete("{id}")]
-        public async Task<ActionResult<EmployeeClass>> Delete(int id)
-        {
-            var employee = _IEmployee.DeleteEmployee(id);
-            return await Task.FromResult(employee);
-        }
+            //[Authorize]
+            [HttpDelete("{id}")]
+            public async Task<ActionResult<EmployeeClass>> Delete(int id)
+            {
+                var employee = _IEmployee.DeleteEmployee(id);
+                return await Task.FromResult(employee);
+            }
 
         private bool EmployeeExists(int id)
         {

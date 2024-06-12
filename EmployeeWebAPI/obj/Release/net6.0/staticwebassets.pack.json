@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets\\Images\\08471cd8-15bd-4eae-b39a-6e0ca4f2b346-Error.JPEG"
     },
     {
+      "Id": "C:\\vidhi\\ASP.NET\\EmployeeWebAPI\\EmployeeWebAPI\\wwwroot\\Images\\085ce951-fd69-44f2-8dfb-546deab78b4c-download.png",
+      "PackagePath": "staticwebassets\\Images\\085ce951-fd69-44f2-8dfb-546deab78b4c-download.png"
+    },
+    {
+      "Id": "C:\\vidhi\\ASP.NET\\EmployeeWebAPI\\EmployeeWebAPI\\wwwroot\\Images\\0c726375-072e-4dc7-bb98-51b7bee7e144-images.jpg",
+      "PackagePath": "staticwebassets\\Images\\0c726375-072e-4dc7-bb98-51b7bee7e144-images.jpg"
+    },
+    {
       "Id": "C:\\vidhi\\ASP.NET\\EmployeeWebAPI\\EmployeeWebAPI\\wwwroot\\Images\\1b9734c2-4841-4ca9-84ca-cf477b4ad61e-Error.JPEG",
       "PackagePath": "staticwebassets\\Images\\1b9734c2-4841-4ca9-84ca-cf477b4ad61e-Error.JPEG"
     },
@@ -37,12 +45,28 @@
       "PackagePath": "staticwebassets\\Images\\51ee197a-8068-4474-8b1d-c1130a3881d6-download (1).jpg"
     },
     {
+      "Id": "C:\\vidhi\\ASP.NET\\EmployeeWebAPI\\EmployeeWebAPI\\wwwroot\\Images\\574e5209-fd6b-43c9-843e-72d243bbcf76-Mayal.rar",
+      "PackagePath": "staticwebassets\\Images\\574e5209-fd6b-43c9-843e-72d243bbcf76-Mayal.rar"
+    },
+    {
       "Id": "C:\\vidhi\\ASP.NET\\EmployeeWebAPI\\EmployeeWebAPI\\wwwroot\\Images\\6ce1db77-2335-4e05-a622-4c98ef712c2b-Error.JPEG",
       "PackagePath": "staticwebassets\\Images\\6ce1db77-2335-4e05-a622-4c98ef712c2b-Error.JPEG"
     },
     {
+      "Id": "C:\\vidhi\\ASP.NET\\EmployeeWebAPI\\EmployeeWebAPI\\wwwroot\\Images\\80e120ae-c2d1-49a6-870e-f4924eccb73b-Mayal.rar",
+      "PackagePath": "staticwebassets\\Images\\80e120ae-c2d1-49a6-870e-f4924eccb73b-Mayal.rar"
+    },
+    {
       "Id": "C:\\vidhi\\ASP.NET\\EmployeeWebAPI\\EmployeeWebAPI\\wwwroot\\Images\\ad13eeec-384f-4fc4-a428-d081a428923a-Error.JPEG",
       "PackagePath": "staticwebassets\\Images\\ad13eeec-384f-4fc4-a428-d081a428923a-Error.JPEG"
+    },
+    {
+      "Id": "C:\\vidhi\\ASP.NET\\EmployeeWebAPI\\EmployeeWebAPI\\wwwroot\\Images\\afd26666-5ac8-496d-a901-9b7979e853c8-download.png",
+      "PackagePath": "staticwebassets\\Images\\afd26666-5ac8-496d-a901-9b7979e853c8-download.png"
+    },
+    {
+      "Id": "C:\\vidhi\\ASP.NET\\EmployeeWebAPI\\EmployeeWebAPI\\wwwroot\\Images\\b268f9f1-818e-4467-a312-a048692812f0-Mayal.rar",
+      "PackagePath": "staticwebassets\\Images\\b268f9f1-818e-4467-a312-a048692812f0-Mayal.rar"
     },
     {
       "Id": "C:\\vidhi\\ASP.NET\\EmployeeWebAPI\\EmployeeWebAPI\\wwwroot\\Images\\b6a97a3b-d032-4fa9-9bdd-977f2be36639-Error.JPEG",
@@ -59,6 +83,10 @@
     {
       "Id": "C:\\vidhi\\ASP.NET\\EmployeeWebAPI\\EmployeeWebAPI\\wwwroot\\Images\\daa92d23-a260-4ed3-9224-bbcc83965d38-Error.JPEG",
       "PackagePath": "staticwebassets\\Images\\daa92d23-a260-4ed3-9224-bbcc83965d38-Error.JPEG"
+    },
+    {
+      "Id": "C:\\vidhi\\ASP.NET\\EmployeeWebAPI\\EmployeeWebAPI\\wwwroot\\Images\\e254400d-42cc-4a46-95d7-8c1b4546a09b-Mayal.rar",
+      "PackagePath": "staticwebassets\\Images\\e254400d-42cc-4a46-95d7-8c1b4546a09b-Mayal.rar"
     },
     {
       "Id": "C:\\vidhi\\ASP.NET\\EmployeeWebAPI\\EmployeeWebAPI\\wwwroot\\Images\\f57dcde5-ca89-49f2-8f82-3758b146a091-Error.JPEG",

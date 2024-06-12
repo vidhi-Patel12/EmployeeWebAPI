@@ -12,6 +12,9 @@ namespace EmployeeWebAPI.Interface
         public EmployeeClass DeleteEmployee(int id);
 
         public bool CheckEmployee(int id);
+        void GetEmployeeDetailsById(int id, CancellationToken none);
+        void GetEmployeeDetailsById(EmployeeClass employeeClass);
+        void GetEmployeeDetailsById();
     }
 }
 
